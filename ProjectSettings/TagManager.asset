@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Brain
+  - Shield
+  - Thought
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - 
+  - 
+  - 
+  - Walls
+  - Level
+  - Enemy
+  - Player
+  - Button
+  - Door
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 490701267
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Platforms and Grounds
+    uniqueID: 4114897637
+    locked: 0
+  - name: Obstacles / Enemies
+    uniqueID: 777455821
+    locked: 0
+  - name: UI
+    uniqueID: 70362771
+    locked: 0
+  - name: Ranks
+    uniqueID: 898068007
+    locked: 0
+  - name: Status Screens
+    uniqueID: 3137522585
+    locked: 0
