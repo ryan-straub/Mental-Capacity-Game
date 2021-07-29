@@ -13,7 +13,6 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public Text currentTimeText;
 
     // Start is called before the first frame update
-
     void Start()
     {
         currentTime = 0;
@@ -47,13 +46,17 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
      
     public void StopStopwatch()
     {
-        if (stopWatchActive == false && currentTime > 29.999 && currentTime < 30.500)
+        stopWatchActive = false;
+        if (stopWatchActive == false)
         {
-            SceneManager.LoadScene(8);
-        }
-        else
-        {
-            SceneManager.LoadScene(7);
+            if(currentTime > 29.000 && currentTime < 30.000)
+            {
+                SceneManager.LoadScene(8);
+            }
+            else
+            {
+                SceneManager.LoadScene(7);
+            }
         }
     }
 }

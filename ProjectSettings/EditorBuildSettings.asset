@@ -6,42 +6,45 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Levels/Menus/Title Screen.unity
+    path: Assets/Scenes/Menus/Title Screen.unity
     guid: ce26bc1a600608d49848e079938db71b
   - enabled: 1
-    path: Assets/Scenes/Levels/Menus/Level Select Screen.unity
+    path: Assets/Scenes/Menus/Level Select Screen.unity
     guid: ec959f1fcc41b464daa97e22b2eb172c
   - enabled: 1
-    path: Assets/Scenes/Levels/Menus/How to Play (HWH)).unity
+    path: Assets/Scenes/Menus/How to Play (HWH)).unity
     guid: 2c6334ef34a49474b97f51a899853dec
   - enabled: 1
-    path: Assets/Scenes/Levels/Menus/How to Play (RRR).unity
+    path: Assets/Scenes/Menus/How to Play (RRR).unity
     guid: be61f65d20ad3714c9a1f5bcda62a12f
   - enabled: 1
-    path: Assets/Scenes/Levels/Menus/How to Play (LS&S).unity
+    path: Assets/Scenes/Menus/How to Play (LS&S).unity
     guid: 0af8650165acb204f85a709926dad423
   - enabled: 1
-    path: Assets/Scenes/Levels/Menus/How to Play (FH).unity
+    path: Assets/Scenes/Menus/How to Play (FH).unity
     guid: 6ea7d013dfaa4eb4ca64da3aca737d27
   - enabled: 1
-    path: Assets/Scenes/Levels/Menus/How to Play (BO).unity
+    path: Assets/Scenes/Menus/How to Play (BO).unity
     guid: 1d14b312572e4dc469a5d45441625617
   - enabled: 1
-    path: Assets/Scenes/Levels/Hand Washing Havoc/Handwashing.unity
+    path: Assets/Scenes/Levels/HWH/Handwashing.unity
     guid: 6afe8a2087704664a93eb4958ac66a6d
   - enabled: 1
-    path: Assets/Scenes/Levels/Hand Washing Havoc/ObstacleCourse.unity
+    path: Assets/Scenes/Levels/HWH/ObstacleCourse.unity
     guid: a460ac2576740cd4da5c6211c8c8c362
   - enabled: 1
-    path: Assets/Scenes/Levels/Blockout/Blockout.unity
+    path: Assets/Scenes/Levels/Blockout.unity
     guid: 53613ec40c2a9dd488959ed35fc745d0
   - enabled: 1
-    path: Assets/Scenes/Levels/Light Switch & Seek/Maze.unity
+    path: Assets/Scenes/Levels/Light Switch & Seek.unity
     guid: 6ab3956655ca13e46a23dd4186749838
   - enabled: 1
-    path: Assets/Scenes/Levels/Reading Repetition Redemption/Reading Repetition Redemption.unity
+    path: Assets/Scenes/Levels/Reading Repetition Redemption.unity
     guid: bd8f370454edc68448fd6580e9e8a2f5
   - enabled: 1
-    path: Assets/Scenes/Levels/Fire Hazard/Fire Hazard.unity
+    path: Assets/Scenes/Levels/Fire Hazard.unity
     guid: 727df76af2732034fadac5ba3d30a23d
+  - enabled: 1
+    path: Assets/Scenes/Menus/S-Tier.unity
+    guid: c6a518be4762ce24ab401591ebfebf2c
   m_configObjects: {}

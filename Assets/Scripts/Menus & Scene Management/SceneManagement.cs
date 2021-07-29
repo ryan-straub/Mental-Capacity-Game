@@ -58,4 +58,8 @@ public class SceneManagement : MonoBehaviour
     {
         SceneManager.LoadScene(12);
     }
+    public void Scene13()
+    {
+        SceneManager.LoadScene(13);
+    }
 }

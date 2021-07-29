@@ -5,8 +5,6 @@ using UnityEngine;
 public class DownArrowInput : MonoBehaviour
 {
     public GameObject ArrowDown;
-    public int totalScore;
-    public int stressLevel;
 
     // Update is called once per frame
     void Update()

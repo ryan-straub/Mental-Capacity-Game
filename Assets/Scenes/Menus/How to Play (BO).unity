@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 59.788, y: 145}
-  m_SizeDelta: {x: 2215.4697, y: 336.48703}
+  m_AnchoredPosition: {x: 0.000015259, y: 127.1}
+  m_SizeDelta: {x: 2086.775, y: 380.6959}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &73772040
 MonoBehaviour:
@@ -177,12 +177,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: One of the biggest questions people have when they leave the house is,
-    "Did I leave the stove on? Sometimes this doesn't even apply to people leaving
-    their own homes, people just get stressed out that something will short circuit.
-    In this game, you have to watch the incoming signals and "check" on the various
-    devices that are adjacent to you to make sure nothing "short circuit." If the
-    player misses too many inputs, they'll get too stressed and the game will end.
+  m_text: One of the biggest causes of anxiety for people who are recently diagnosed
+    with OCD are intrusive thoughts. It makes them very worried and constantly question
+    if they are a bad person for having these thoughts when in reality everyone has
+    them and they are subconscious. For this game the player has to use the arrow
+    keys to move their shield around their brain and prevent the intrusive thoughts
+    from entering the player's head for at least 3 minutes. If the player gets too
+    stressed out, then it's a game over.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -334,7 +335,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260292043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 163, y: 105, z: -2376}
+  m_LocalPosition: {x: 234, y: 105, z: -2376}
   m_LocalScale: {x: 16, y: 16, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -587,8 +588,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 59.788, y: 393}
-  m_SizeDelta: {x: 835.52356, y: 121.98891}
+  m_AnchoredPosition: {x: 0, y: 407}
+  m_SizeDelta: {x: 655.4415, y: 117.371414}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363290487
 MonoBehaviour:
@@ -609,7 +610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Fire Hazard
+  m_text: Blockout
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43f05305961fd2b4aa13c139651c904a, type: 2}
   m_sharedMaterial: {fileID: 6046786333224852313, guid: 43f05305961fd2b4aa13c139651c904a,
@@ -724,7 +725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -780, y: -386.49}
+  m_AnchoredPosition: {x: -775.44, y: -383}
   m_SizeDelta: {x: 535.89355, y: 207.9602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367941562
@@ -771,7 +772,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1367941565}
-        m_MethodName: Scene12
+        m_MethodName: Scene9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -931,8 +932,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 309.27002, y: 289}
-  m_SizeDelta: {x: 689.99994, y: 578}
+  m_AnchoredPosition: {x: 399.9, y: 287.6}
+  m_SizeDelta: {x: 2134.9482, y: 1019.67456}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1604971361
 GameObject:
@@ -1228,8 +1229,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736705087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 388.4, y: 283.6, z: -2144}
-  m_LocalScale: {x: 86.3, y: 67.31665, z: 1}
+  m_LocalPosition: {x: 386.5, y: 284.2, z: -2144}
+  m_LocalScale: {x: 84.37309, y: 70.234116, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1537,8 +1538,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 961.12, y: -398}
-  m_SizeDelta: {x: 500.48578, y: 182.9744}
+  m_AnchoredPosition: {x: 775.44, y: -383}
+  m_SizeDelta: {x: 535.8897, y: 207.95877}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2020332517
 MonoBehaviour:

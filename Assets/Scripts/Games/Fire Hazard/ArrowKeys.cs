@@ -10,88 +10,96 @@ public class ArrowKeys : MonoBehaviour
     public GameObject down;
     private IEnumerator coroutine;
 
-    IEnumerator test()
-    {
-        yield return new WaitForSeconds(1f);
-        Debug.Log("ranTest");
-        StopCoroutine(test());
-    }
+    //IEnumerator test()
+    //{
+    //    yield return new WaitForSeconds(1f);
+    //    Debug.Log("ranTest");
+    //    StopCoroutine(test());
+    //}
 
-    IEnumerator enableHitbox()
+    IEnumerator enableLeftHitbox()
     {
         left.GetComponent<BoxCollider2D>().enabled = true;
         yield return new WaitForSeconds(0.5f);
         //activates hitbox for half a second
         left.GetComponent<BoxCollider2D>().enabled = false;
-        StopCoroutine(enableHitbox());
+        StopCoroutine(enableLeftHitbox());
     }
+
+    IEnumerator enableRightHitbox()
+    {
+        right.GetComponent<BoxCollider2D>().enabled = true;
+        yield return new WaitForSeconds(0.5f);
+        //activates hitbox for half a second
+        right.GetComponent<BoxCollider2D>().enabled = false;
+        StopCoroutine(enableRightHitbox());
+    }
+
+    IEnumerator enableUpHitbox()
+    {
+        up.GetComponent<BoxCollider2D>().enabled = true;
+        yield return new WaitForSeconds(0.5f);
+        //activates hitbox for half a second
+        up.GetComponent<BoxCollider2D>().enabled = false;
+        StopCoroutine(enableUpHitbox());
+    }
+
+    IEnumerator enableDownHitbox()
+    {
+        down.GetComponent<BoxCollider2D>().enabled = true;
+        yield return new WaitForSeconds(0.5f);
+        //activates hitbox for half a second
+        down.GetComponent<BoxCollider2D>().enabled = false;
+        StopCoroutine(enableDownHitbox());
+    }
+
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            left.transform.position += new Vector3(3849, -2318, 0);
-            left.GetComponent<Renderer>().material.color = new Color(255, 255, 0);
-            StartCoroutine(enableHitbox());
+            left.SetActive(true);
+            StartCoroutine(enableLeftHitbox());
         }
         else if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
-            left.transform.position -= new Vector3(3849, -2318, 0);
+            left.SetActive(false);
             left.GetComponent<Renderer>().material.color = Color.white;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //=======================================================================================
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            right.transform.position -= new Vector3(3831, -2320, 0);
-            right.GetComponent<Renderer>().material.color = new Color(255, 0, 255);
+            right.SetActive(true);
+            StartCoroutine(enableRightHitbox());
         }
         else if (Input.GetKeyUp(KeyCode.RightArrow))
         {
-            right.transform.position += new Vector3(3831, -2320, 0);
+            right.SetActive(false);
             right.GetComponent<Renderer>().material.color = Color.white;
         }
+
 //=======================================================================================
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            up.transform.position -= new Vector3(-4324, 1976, 0);
-            up.GetComponent<Renderer>().material.color = new Color(0, 255, 255);
+            up.SetActive(true);
+            StartCoroutine(enableUpHitbox());
         }
         else if (Input.GetKeyUp(KeyCode.UpArrow))
         {
-            up.transform.position += new Vector3(-4324, 1976, 0);
+            up.SetActive(false);
             up.GetComponent<Renderer>().material.color = Color.white;
         }
 //========================================================================================
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            down.transform.position += new Vector3(-4314, 1946, 0);
-            down.GetComponent<Renderer>().material.color = new Color(255, 0, 0);
+            down.SetActive(true);
+            StartCoroutine(enableDownHitbox());
         }
         else if (Input.GetKeyUp(KeyCode.DownArrow))
         {
-            down.transform.position -= new Vector3(-4314, 1946, 0);
+            down.SetActive(false);
             down.GetComponent<Renderer>().material.color = Color.white;
         }
 //========================================================================================
