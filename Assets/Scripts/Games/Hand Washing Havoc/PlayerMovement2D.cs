@@ -9,6 +9,8 @@ public class PlayerMovement2D : MonoBehaviour
     public float jump;
     private bool jumped = false;
     private Rigidbody2D body;
+    public AudioSource jumpSFX;
+    public AudioSource landSFX;
 
     // Update is called once per frame
     void Update()
@@ -19,11 +21,14 @@ public class PlayerMovement2D : MonoBehaviour
         {
             body.velocity = new Vector2(body.velocity.x, jump);
             jumped = true;
+            jumpSFX.Play();
+
         }
 
         if (body.velocity.y == 0)
         {
             jumped = false;
+            landSFX.Play();
         }
     }
 

@@ -8,14 +8,11 @@ public class ArrowKeys : MonoBehaviour
     public GameObject right;
     public GameObject up;
     public GameObject down;
+    public GameObject leftLook;
+    public GameObject rightLook;
+    public GameObject upLook;
+    public GameObject downLook;
     private IEnumerator coroutine;
-
-    //IEnumerator test()
-    //{
-    //    yield return new WaitForSeconds(1f);
-    //    Debug.Log("ranTest");
-    //    StopCoroutine(test());
-    //}
 
     IEnumerator enableLeftHitbox()
     {
@@ -23,8 +20,22 @@ public class ArrowKeys : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         //activates hitbox for half a second
         left.GetComponent<BoxCollider2D>().enabled = false;
+        //gameObject.GetComponent<SpriteRenderer>().sprite = leftLook;
         StopCoroutine(enableLeftHitbox());
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     IEnumerator enableRightHitbox()
     {

@@ -9,6 +9,8 @@ public class PlayerStress : MonoBehaviour
     public bool playerLose = false;
     public GameObject loseScreen;
     public GameObject winScreen;
+    public AudioSource winSFX;
+    public AudioSource loseSFX;
     public Slider slider;
 
     public Ranks rank;
@@ -61,6 +63,12 @@ public class PlayerStress : MonoBehaviour
     public void veryLargeStressIncrease()
     {
         distressLevel += 20;
+        RankCheck();
+    }
+
+    public void instantLose()
+    {
+        distressLevel += 100;
         RankCheck();
     }
     

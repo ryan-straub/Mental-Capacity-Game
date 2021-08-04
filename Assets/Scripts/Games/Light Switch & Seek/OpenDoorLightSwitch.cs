@@ -17,7 +17,7 @@ public class OpenDoorLightSwitch : MonoBehaviour
     {
         numberOfLightSwitches += 1;
 
-        if (numberOfLightSwitches == 30)
+        if (numberOfLightSwitches == 31)
         {
             Destroy(Door);
         }

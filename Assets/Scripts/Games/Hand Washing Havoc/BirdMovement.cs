@@ -19,9 +19,4 @@ public class BirdMovement : MonoBehaviour
     {
         bird.transform.Translate(-birdX * birdSpeed, 0, 0);
     }
-
-    //public void MoveRight()
-    //{
-    //    bird.transform.Translate(birdX * birdSpeed, 0, 0);
-    //}
 }

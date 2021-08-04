@@ -11,6 +11,9 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     bool stopWatchActive = false;
     float currentTime;
     public Text currentTimeText;
+    public GameObject HandWashing;
+    public GameObject Fade;
+    public GameObject Bubbles;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +45,9 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void StartStopwatch()
     {
         stopWatchActive = true;
+        HandWashing.GetComponent<Animator>().Play("HandWashing");
+        Fade.GetComponent<Animator>().Play("FadeEffect");
+        Bubbles.GetComponent<Animator>().Play("bubbles");
     }
      
     public void StopStopwatch()

@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: f3404351d730a2d48b92859281de814e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8542695375099482317
+    second: Hand Washing_0
+  - first:
+      213: -2470600248902203935
+    second: Hand Washing_1
+  - first:
+      213: 1514256884538365042
+    second: Hand Washing_2
+  - first:
+      213: -3501349821551809745
+    second: Hand Washing_3
+  - first:
+      213: -4271866820954124555
+    second: Hand Washing_4
+  - first:
+      213: 410771147564114608
+    second: Hand Washing_5
+  - first:
+      213: 3410013262762525206
+    second: Hand Washing_6
+  - first:
+      213: -1811636328206163370
+    second: Hand Washing_7
+  - first:
+      213: 8841475970067698467
+    second: Hand Washing_8
+  - first:
+      213: 7341964133551647958
+    second: Hand Washing_9
+  - first:
+      213: 5677009170970194071
+    second: Hand Washing_10
+  - first:
+      213: -3371316940061774637
+    second: Hand Washing_11
+  - first:
+      213: 442113966803245297
+    second: Hand Washing_12
+  - first:
+      213: -2363650080862900421
+    second: Hand Washing_13
+  - first:
+      213: -8814713627225903286
+    second: Hand Washing_14
+  - first:
+      213: -5536308057364943114
+    second: Hand Washing_15
+  - first:
+      213: 7555450643045798227
+    second: Hand Washing_16
+  - first:
+      213: -6003175213811079170
+    second: Hand Washing_17
+  - first:
+      213: -8533583585197908622
+    second: Hand Washing_18
+  - first:
+      213: -6897018520980084881
+    second: Hand Washing_19
+  - first:
+      213: -1450526042409908061
+    second: Hand Washing_20
+  - first:
+      213: -6552208050383351278
+    second: Hand Washing_21
+  - first:
+      213: 6207397716720212888
+    second: Hand Washing_22
+  - first:
+      213: -5875606718237704919
+    second: Hand Washing_23
+  - first:
+      213: 708108338437180226
+    second: Hand Washing_24
+  - first:
+      213: 3158233604730048536
+    second: Hand Washing_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hand Washing_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3407
+        width: 1030
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fa2d641df327980800000000000000
+      internalID: -8542695375099482317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Washing_1
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 3406
+        width: 1032
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e54136d92aa6bdd0800000000000000
+      internalID: -2470600248902203935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Washing_2
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 3408
+        width: 1030
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27459951d98b30510800000000000000
+      internalID: 1514256884538365042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Washing_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 1030
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2be60463e4b86fc0800000000000000
+      internalID: -3501349821551809745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Washing_4
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 2718
+        width: 1032
+        height: 676
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe804972c747b4c0800000000000000
+      internalID: -4271866820954124555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Washing_5
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 2718
+        width: 1032
+        height: 690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2e98eae2a53b500800000000000000
+      internalID: 410771147564114608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Washing_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2029
+        width: 1030
+        height: 691
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612c456defcc25f20800000000000000
+      internalID: 3410013262762525206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Washing_7
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 2028
+        width: 1031
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6522413ab56cbd6e0800000000000000
+      internalID: -1811636328206163370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Washing_8
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 2028
+        width: 1034
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3239906fc8b33ba70800000000000000
+      internalID: 8841475970067698467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

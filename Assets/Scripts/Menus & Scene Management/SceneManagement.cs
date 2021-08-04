@@ -62,4 +62,9 @@ public class SceneManagement : MonoBehaviour
     {
         SceneManager.LoadScene(13);
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
 }

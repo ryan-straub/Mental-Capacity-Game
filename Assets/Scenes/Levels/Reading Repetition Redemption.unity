@@ -1002,8 +1002,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence1TotalAmount: 0
   sentence2TotalAmount: 0
+  sentence3TotalAmount: 0
+  sentence4TotalAmount: 0
+  sentence5TotalAmount: 0
+  sentence6TotalAmount: 0
   sentence1CurrentAmount: 0
   sentence2CurrentAmount: 0
+  sentence3CurrentAmount: 0
+  sentence4CurrentAmount: 0
+  sentence5CurrentAmount: 0
+  sentence6CurrentAmount: 0
+  sentence1: I let the dog inside
+  sentence2: There is nothing left to say
+  sentence3: Destroy them
+  sentence4: Ex-Solider, I quit
+  sentence5: Are you okay
+  sentence6: Good morning how are you feeling today
 --- !u!114 &384528332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2412,8 +2426,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence1TotalAmount: 0
   sentence2TotalAmount: 0
+  sentence3TotalAmount: 0
+  sentence4TotalAmount: 0
+  sentence5TotalAmount: 0
+  sentence6TotalAmount: 0
   sentence1CurrentAmount: 0
   sentence2CurrentAmount: 0
+  sentence3CurrentAmount: 0
+  sentence4CurrentAmount: 0
+  sentence5CurrentAmount: 0
+  sentence6CurrentAmount: 0
+  sentence1: I let the dog inside
+  sentence2: There is nothing left to say
+  sentence3: Destroy them
+  sentence4: Ex-Solider, I quit
+  sentence5: Are you okay
+  sentence6: Good morning how are you feeling today
 --- !u!114 &654693358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2708,8 +2736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distressLevel: 0
   playerLose: 0
-  loseScreen: {fileID: 0}
-  winScreen: {fileID: 0}
+  loseScreen: {fileID: 1589096920}
+  winScreen: {fileID: 936771925}
   slider: {fileID: 1647622242}
   rank: {fileID: 498256166}
 --- !u!4 &723635003
@@ -2758,8 +2786,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence1TotalAmount: 0
   sentence2TotalAmount: 0
+  sentence3TotalAmount: 0
+  sentence4TotalAmount: 0
+  sentence5TotalAmount: 0
+  sentence6TotalAmount: 0
   sentence1CurrentAmount: 0
   sentence2CurrentAmount: 0
+  sentence3CurrentAmount: 0
+  sentence4CurrentAmount: 0
+  sentence5CurrentAmount: 0
+  sentence6CurrentAmount: 0
+  sentence1: I let the dog inside
+  sentence2: There is nothing left to say
+  sentence3: Destroy them
+  sentence4: Ex-Solider, I quit
+  sentence5: Are you okay
+  sentence6: Good morning how are you feeling today
 --- !u!1 &745811976
 GameObject:
   m_ObjectHideFlags: 0
@@ -3089,8 +3131,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence1TotalAmount: 0
   sentence2TotalAmount: 0
+  sentence3TotalAmount: 0
+  sentence4TotalAmount: 0
+  sentence5TotalAmount: 0
+  sentence6TotalAmount: 0
   sentence1CurrentAmount: 0
   sentence2CurrentAmount: 0
+  sentence3CurrentAmount: 0
+  sentence4CurrentAmount: 0
+  sentence5CurrentAmount: 0
+  sentence6CurrentAmount: 0
+  sentence1: I let the dog inside
+  sentence2: There is nothing left to say
+  sentence3: Destroy them
+  sentence4: Ex-Solider, I quit
+  sentence5: Are you okay
+  sentence6: Good morning how are you feeling today
 --- !u!114 &758311723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4988,8 +5044,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence1TotalAmount: 0
   sentence2TotalAmount: 0
+  sentence3TotalAmount: 0
+  sentence4TotalAmount: 0
+  sentence5TotalAmount: 0
+  sentence6TotalAmount: 0
   sentence1CurrentAmount: 0
   sentence2CurrentAmount: 0
+  sentence3CurrentAmount: 0
+  sentence4CurrentAmount: 0
+  sentence5CurrentAmount: 0
+  sentence6CurrentAmount: 0
+  sentence1: I let the dog inside
+  sentence2: There is nothing left to say
+  sentence3: Destroy them
+  sentence4: Ex-Solider, I quit
+  sentence5: Are you okay
+  sentence6: Good morning how are you feeling today
 --- !u!114 &1209443098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5265,8 +5335,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence1TotalAmount: 0
   sentence2TotalAmount: 0
+  sentence3TotalAmount: 0
+  sentence4TotalAmount: 0
+  sentence5TotalAmount: 0
+  sentence6TotalAmount: 0
   sentence1CurrentAmount: 0
   sentence2CurrentAmount: 0
+  sentence3CurrentAmount: 0
+  sentence4CurrentAmount: 0
+  sentence5CurrentAmount: 0
+  sentence6CurrentAmount: 0
+  sentence1: I let the dog inside
+  sentence2: There is nothing left to say
+  sentence3: Destroy them
+  sentence4: Ex-Solider, I quit
+  sentence5: Are you okay
+  sentence6: Good morning how are you feeling today
 --- !u!114 &1212604833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5956,8 +6040,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence1TotalAmount: 0
   sentence2TotalAmount: 0
+  sentence3TotalAmount: 0
+  sentence4TotalAmount: 0
+  sentence5TotalAmount: 0
+  sentence6TotalAmount: 0
   sentence1CurrentAmount: 0
   sentence2CurrentAmount: 0
+  sentence3CurrentAmount: 0
+  sentence4CurrentAmount: 0
+  sentence5CurrentAmount: 0
+  sentence6CurrentAmount: 0
+  sentence1: I let the dog inside
+  sentence2: There is nothing left to say
+  sentence3: Destroy them
+  sentence4: Ex-Solider, I quit
+  sentence5: Are you okay
+  sentence6: Good morning how are you feeling today
 --- !u!1 &1371769170
 GameObject:
   m_ObjectHideFlags: 0
@@ -8649,6 +8747,108 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2059196628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2059196631}
+  - component: {fileID: 2059196630}
+  - component: {fileID: 2059196629}
+  m_Layer: 0
+  m_Name: page turn_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &2059196629
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059196628}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 241de75b40d570749b4a32173d1b27d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &2059196630
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059196628}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 1864600681646196417, guid: 18915a3f047c5594c94c48374c974c37,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.5099998, y: 6.4500003}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2059196631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059196628}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03502637, w: -0.9993864}
+  m_LocalPosition: {x: 1598, y: 376, z: 0}
+  m_LocalScale: {x: -80.19032, y: 69.492195, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.0150003}
 --- !u!1 &2064287047
 GameObject:
   m_ObjectHideFlags: 0
@@ -8683,8 +8883,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 508, y: 198.23}
-  m_SizeDelta: {x: 342.6698, y: 100.16199}
+  m_AnchoredPosition: {x: 508, y: 279.57}
+  m_SizeDelta: {x: 290.9162, y: 63.433533}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2064287049
 MonoBehaviour:
@@ -8699,15 +8899,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 88
+    m_Font: {fileID: 12800000, guid: 95062f4f60cb15c4392e7c4bf32fd316, type: 3}
+    m_FontSize: 54
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10

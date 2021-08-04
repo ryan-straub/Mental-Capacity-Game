@@ -17,6 +17,10 @@ public class ObjectTimerLoseAtEnd : MonoBehaviour
     void Start()
     {
         currentTime = startTime;
+        if (playerStress == null)
+        {
+            playerStress = FindObjectOfType<PlayerStress>();
+        }
     }
 
     // Update is called once per frame
@@ -26,15 +30,15 @@ public class ObjectTimerLoseAtEnd : MonoBehaviour
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
         currentTimeText.text = time.Minutes.ToString() + ":" +time.Seconds.ToString() + ":" + time.Milliseconds.ToString();
 
-        if (currentTime >= 100)
+        if (currentTime <= 100.0 && currentTime >= 99.999)
         {
             playerStress.veryLargeStressIncrease();
         }
-        else if (currentTime >= 80 && currentTime <= 99)
+        else if (currentTime <= 80.0 && currentTime >= 79.999)
         {
             playerStress.veryLargeStressIncrease();
         }
-        else if (currentTime >= 60 && currentTime <= 79)
+        else if (currentTime <= 60.0 && currentTime >= 59.999)
         {
             playerStress.veryLargeStressIncrease();
         }
