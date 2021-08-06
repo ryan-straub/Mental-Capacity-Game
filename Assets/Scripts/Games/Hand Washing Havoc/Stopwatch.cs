@@ -35,6 +35,9 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         StartStopwatch();
+        HandWashing.GetComponent<Animator>().Play("HandWashing");
+        Fade.GetComponent<Animator>().Play("FadeEffect");
+        Bubbles.GetComponent<Animator>().Play("bubbles");
     }
 
      public void OnPointerUp(PointerEventData eventData)
@@ -45,9 +48,6 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void StartStopwatch()
     {
         stopWatchActive = true;
-        HandWashing.GetComponent<Animator>().Play("HandWashing");
-        Fade.GetComponent<Animator>().Play("FadeEffect");
-        Bubbles.GetComponent<Animator>().Play("bubbles");
     }
      
     public void StopStopwatch()

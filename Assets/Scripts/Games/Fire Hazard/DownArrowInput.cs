@@ -5,11 +5,18 @@ using UnityEngine;
 public class DownArrowInput : MonoBehaviour
 {
     public GameObject ArrowDown;
+    public float speed;
+
+    public void Awake()
+    {
+        speed = Random.Range(3.0f, 10.0f);
+        Debug.Log(speed);
+    }
 
     // Update is called once per frame
     void Update()
     {
-        ArrowDown.transform.Translate(0, 1, 0);
+        ArrowDown.transform.Translate(0, speed, 0);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -27,4 +27,11 @@ public class pauseScreen : MonoBehaviour
             pauseOverlay.SetActive(false);
         }
     }
+
+    public void unPause()
+    {
+        isPaused = false;
+        Time.timeScale = 1;
+        pauseOverlay.SetActive(false);
+    }
 }

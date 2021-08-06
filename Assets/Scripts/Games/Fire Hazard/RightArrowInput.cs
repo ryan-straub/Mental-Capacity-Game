@@ -5,11 +5,18 @@ using UnityEngine;
 public class RightArrowInput : MonoBehaviour
 {
     public GameObject ArrowRight;
+    public float speed;
+
+    public void Awake()
+    {
+        speed = Random.Range(3.0f, 10.0f);
+        Debug.Log(speed);
+    }
 
     // Update is called once per frame
     void Update()
     {
-        ArrowRight.transform.Translate(0, 1, 0);
+        ArrowRight.transform.Translate(0, speed, 0);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

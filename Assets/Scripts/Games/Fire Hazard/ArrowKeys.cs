@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class ArrowKeys : MonoBehaviour
 {
+    public PlayerStress playerStress;
     public GameObject left;
     public GameObject right;
     public GameObject up;
     public GameObject down;
-    public GameObject leftLook;
-    public GameObject rightLook;
-    public GameObject upLook;
-    public GameObject downLook;
+    public Sprite centerLook;
+    public Sprite leftLook;
+    public Sprite rightLook;
+    public Sprite upLook;
+    public Sprite downLook;
     private IEnumerator coroutine;
 
     IEnumerator enableLeftHitbox()
@@ -20,22 +22,8 @@ public class ArrowKeys : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         //activates hitbox for half a second
         left.GetComponent<BoxCollider2D>().enabled = false;
-        //gameObject.GetComponent<SpriteRenderer>().sprite = leftLook;
         StopCoroutine(enableLeftHitbox());
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     IEnumerator enableRightHitbox()
     {
@@ -64,6 +52,10 @@ public class ArrowKeys : MonoBehaviour
         StopCoroutine(enableDownHitbox());
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        playerStress.moderateStressIncrease();
+    }
 
     // Update is called once per frame
     void Update()
@@ -71,11 +63,13 @@ public class ArrowKeys : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             left.SetActive(true);
+            gameObject.GetComponent<SpriteRenderer>().sprite = leftLook;
             StartCoroutine(enableLeftHitbox());
         }
         else if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
             left.SetActive(false);
+            gameObject.GetComponent<SpriteRenderer>().sprite = centerLook;
             left.GetComponent<Renderer>().material.color = Color.white;
         }
 
@@ -83,11 +77,13 @@ public class ArrowKeys : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             right.SetActive(true);
+            gameObject.GetComponent<SpriteRenderer>().sprite = rightLook;
             StartCoroutine(enableRightHitbox());
         }
         else if (Input.GetKeyUp(KeyCode.RightArrow))
         {
             right.SetActive(false);
+            gameObject.GetComponent<SpriteRenderer>().sprite = centerLook;
             right.GetComponent<Renderer>().material.color = Color.white;
         }
 
@@ -95,22 +91,26 @@ public class ArrowKeys : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             up.SetActive(true);
+            gameObject.GetComponent<SpriteRenderer>().sprite = upLook;
             StartCoroutine(enableUpHitbox());
         }
         else if (Input.GetKeyUp(KeyCode.UpArrow))
         {
             up.SetActive(false);
+            gameObject.GetComponent<SpriteRenderer>().sprite = centerLook;
             up.GetComponent<Renderer>().material.color = Color.white;
         }
 //========================================================================================
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             down.SetActive(true);
+            gameObject.GetComponent<SpriteRenderer>().sprite = downLook;
             StartCoroutine(enableDownHitbox());
         }
         else if (Input.GetKeyUp(KeyCode.DownArrow))
         {
             down.SetActive(false);
+            gameObject.GetComponent<SpriteRenderer>().sprite = centerLook;
             down.GetComponent<Renderer>().material.color = Color.white;
         }
 //========================================================================================

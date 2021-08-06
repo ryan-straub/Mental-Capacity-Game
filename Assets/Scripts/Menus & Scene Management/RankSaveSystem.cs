@@ -5,37 +5,24 @@ using UnityEngine;
 public class RankSaveSystem : MonoBehaviour
 {
 
-    public GameObject RankHWH;
-    public GameObject RankLSS;
-    public GameObject RankRRR;
-    public GameObject RankFH;
     public GameObject RankBO;
-
+    public Ranks rank;
+    public bool newBestRank;
 
     // Update is called once per frame
     void Update()
     {
+
     }
 
-    public void rankUpdateHWH()
+    public void SaveRankBO()
     {
 
     }
-    public void rankUpdateLSS()
-    {
 
-    }
-    public void rankUpdateRRR()
+    public void setGameRanks()
     {
+    } 
 
-    }
-    public void rankUpdateFH()
-    {
-
-    }
-    public void rankUpdateBO()
-    {
-
-    }
 }
 

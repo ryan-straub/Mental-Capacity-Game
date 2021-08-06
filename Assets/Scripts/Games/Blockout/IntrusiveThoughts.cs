@@ -9,6 +9,12 @@ public class IntrusiveThoughts : MonoBehaviour
     public float enemyMovementx;
     public float enemyMovementy;
 
+    public void Awake()
+    {
+        enemySpeed = Random.Range(1.0f, 3.0f);
+        Debug.Log(enemySpeed);
+    }
+
     //Update is called once per frame
     void Update()
     {
@@ -18,5 +24,6 @@ public class IntrusiveThoughts : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Destroy(enemy);
+        enemySpeed = Random.Range(1.0f, 3.0f);
     }
 }

@@ -1586,12 +1586,12 @@ GameObject:
   - component: {fileID: 1845637598}
   - component: {fileID: 1845637597}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Best Rank Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1845637596
 RectTransform:
   m_ObjectHideFlags: 0
