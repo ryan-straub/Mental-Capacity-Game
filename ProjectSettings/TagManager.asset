@@ -7,6 +7,7 @@ TagManager:
   - Brain
   - Shield
   - Thought
+  - Menu Music
   layers:
   - Default
   - TransparentFX

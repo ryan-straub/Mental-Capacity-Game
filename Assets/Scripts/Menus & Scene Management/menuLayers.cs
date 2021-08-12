@@ -4,32 +4,32 @@ using UnityEngine;
 
 public class menuLayers : MonoBehaviour
 {
-
     public GameObject mainMenuOverlay;
     public GameObject creditsOverlay;
+    public GameObject optionsOverlay;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void credits()
+    public void mainMenuToCredits()
     {
         mainMenuOverlay.SetActive(false);
         creditsOverlay.SetActive(true);
     }
 
-    public void mainMenu()
+    public void creditsToMainMenu()
     {
         mainMenuOverlay.SetActive(true);
         creditsOverlay.SetActive(false);
+    }
+
+    public void optionsToMainMenu()
+    {
+        mainMenuOverlay.SetActive(true);
+        optionsOverlay.SetActive(false);
+    }
+
+    public void mainMenuToOptions()
+    {
+        optionsOverlay.SetActive(true);
+        mainMenuOverlay.SetActive(false);
     }
 
 }
