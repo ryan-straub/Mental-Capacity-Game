@@ -9,7 +9,7 @@ public class LeftArrowInput : MonoBehaviour
 
     public void Awake()
     {
-        speed = 1.5f;
+        speed = 0.5f;
         Debug.Log(speed);
     }
 

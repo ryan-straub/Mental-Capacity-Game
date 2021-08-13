@@ -11,7 +11,7 @@ public class IntrusiveThoughts : MonoBehaviour
 
     public void Awake()
     {
-        enemySpeed = 1.5f;
+        enemySpeed = 0.5f;
         Debug.Log(enemySpeed);
     }
 
