@@ -9,7 +9,7 @@ public class DownArrowInput : MonoBehaviour
 
     public void Awake()
     {
-        speed = Random.Range(3.0f, 10.0f);
+        speed = 1.5f;
         Debug.Log(speed);
     }
 

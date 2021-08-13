@@ -123,7 +123,6 @@ public class audioInput : MonoBehaviour
 
     private void level6()
     {
-        sentence6TotalAmount = Random.Range(1, 10);
         sentence6CurrentAmount += 1;
         if (sentence6CurrentAmount == sentence6TotalAmount)
         {

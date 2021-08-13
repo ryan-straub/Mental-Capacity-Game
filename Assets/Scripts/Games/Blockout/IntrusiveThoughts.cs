@@ -11,7 +11,7 @@ public class IntrusiveThoughts : MonoBehaviour
 
     public void Awake()
     {
-        enemySpeed = Random.Range(1.0f, 3.0f);
+        enemySpeed = 1.5f;
         Debug.Log(enemySpeed);
     }
 
@@ -24,6 +24,5 @@ public class IntrusiveThoughts : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Destroy(enemy);
-        enemySpeed = Random.Range(1.0f, 3.0f);
     }
 }

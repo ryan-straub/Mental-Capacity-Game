@@ -5,10 +5,9 @@ using UnityEngine;
 public class pauseScreen : MonoBehaviour
 {
     public bool isPaused = false;
+    public GameObject pauseMenu;
     public GameObject pauseOverlay;
-    public GameObject pauseOptionsOverlay;
     public AudioSource pauseSFX;
-    public AudioSource pauseMusic;
 
     // Update is called once per frame
     void Update() 
@@ -19,13 +18,16 @@ public class pauseScreen : MonoBehaviour
             Time.timeScale = 0;
             pauseSFX.Play();
             pauseOverlay.SetActive(true);
+            pauseMenu.SetActive(true);
 
         }
+
         else if (Input.GetKeyDown(KeyCode.Escape) && isPaused == true)
         {
             isPaused = false;
             Time.timeScale = 1;
             pauseOverlay.SetActive(false);
+            pauseMenu.SetActive(false);
         }
     }
 
@@ -34,17 +36,6 @@ public class pauseScreen : MonoBehaviour
         isPaused = false;
         Time.timeScale = 1;
         pauseOverlay.SetActive(false);
-    }
-
-    public void pauseToOptions()
-    {
-        pauseOverlay.SetActive(false);
-        pauseOptionsOverlay.SetActive(true);
-    }
-
-    public void optionsToPause()
-    {
-        pauseOverlay.SetActive(true);
-        pauseOptionsOverlay.SetActive(false);
+        pauseMenu.SetActive(false);
     }
 }

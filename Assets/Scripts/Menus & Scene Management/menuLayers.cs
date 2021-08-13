@@ -6,7 +6,7 @@ public class menuLayers : MonoBehaviour
 {
     public GameObject mainMenuOverlay;
     public GameObject creditsOverlay;
-    public GameObject optionsOverlay;
+    public GameObject musicCreditsOverlay;
 
     public void mainMenuToCredits()
     {
@@ -20,16 +20,16 @@ public class menuLayers : MonoBehaviour
         creditsOverlay.SetActive(false);
     }
 
-    public void optionsToMainMenu()
+    public void musicToCredits()
     {
-        mainMenuOverlay.SetActive(true);
-        optionsOverlay.SetActive(false);
+        creditsOverlay.SetActive(true);
+        musicCreditsOverlay.SetActive(false);
     }
 
-    public void mainMenuToOptions()
+    public void creditsToMusic()
     {
-        optionsOverlay.SetActive(true);
-        mainMenuOverlay.SetActive(false);
+        musicCreditsOverlay.SetActive(true);
+        creditsOverlay.SetActive(false);
     }
 
 }

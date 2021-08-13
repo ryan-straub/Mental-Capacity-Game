@@ -37,26 +37,32 @@ public class SceneManagement : MonoBehaviour
     public void Scene7()
     {
         SceneManager.LoadScene(7);
+        Time.timeScale = 1;
     }
     public void Scene8()
     {
         SceneManager.LoadScene(8);
+        Time.timeScale = 1;
     }
     public void Scene9()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(9);
     }
     public void Scene10()
     {
         SceneManager.LoadScene(10);
+        Time.timeScale = 1;
     }
     public void Scene11()
     {
         SceneManager.LoadScene(11);
+        Time.timeScale = 1;
     }
     public void Scene12()
     {
         SceneManager.LoadScene(12);
+        Time.timeScale = 1;
     }
     public void Scene13()
     {
@@ -65,6 +71,7 @@ public class SceneManagement : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+
     }
 
 }

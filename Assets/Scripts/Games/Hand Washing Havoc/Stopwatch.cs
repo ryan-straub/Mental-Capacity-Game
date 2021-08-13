@@ -14,6 +14,7 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public GameObject HandWashing;
     public GameObject Fade;
     public GameObject Bubbles;
+    public AudioSource sinkNoise;
 
     // Start is called before the first frame update
     void Start()
@@ -32,13 +33,14 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         currentTimeText.text = time.Seconds.ToString() + ":" + time.Milliseconds.ToString();
     }
 
+    //Plays Handwashing, Bubbles, and Fading Animation while the WASH! button is held down
     public void OnPointerDown(PointerEventData eventData)
     {
         StartStopwatch();
-        //GetComponent<Animator>().SetBool("HandWashing", true);
         HandWashing.GetComponent<Animator>().Play("HandWashing");
         Fade.GetComponent<Animator>().Play("FadeEffect");
         Bubbles.GetComponent<Animator>().Play("bubbles");
+        sinkNoise.Play();
     }
 
      public void OnPointerUp(PointerEventData eventData)

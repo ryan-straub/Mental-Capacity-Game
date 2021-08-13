@@ -6,46 +6,70 @@ public class PlayerTopDown : MonoBehaviour
 {
     public float speed;
     public AudioSource walk;
-    //public GameObject 
+    public GameObject player;
     private Rigidbody2D body;
 
     void Update()
     {
         body.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, Input.GetAxis("Vertical") * speed);
 
-        //if (Input.GetKeyDown(KeyCode.UpArrow))
-        //{
+        //Up
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            player.GetComponent<Animator>().Play("Moving");
+            player.transform.Rotate(0, 0, 0);
+        }
 
-        //}
-        //else if (Input.GetKeyDown(KeyCode.LeftArrow))
-        //{
+        //Left
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            player.GetComponent<Animator>().Play("Moving");
+            player.transform.Rotate(0, 0, 90);
+        }
 
-        //}
-        //else if (Input.GetKeyDown(KeyCode.RightArrow))
-        //{
-        //}
-        //else if (Input.GetKeyDown(KeyCode.DownArrow))
-        //{
-        //}
-        //else if (Input.GetKeyDown(KeyCode.LeftArrow)) && (Input.GetKeyDown(KeyCode.UpArrow))
-        //{
-        //}
-        //else if (Input.GetKeyDown(KeyCode.LeftArrow)) && (Input.GetKeyDown(KeyCode.DownArrow))
-        //{
-        //}
-        //else if (Input.GetKeyDown(KeyCode.RightArrow)) && (Input.GetKeyDown(KeyCode.UpArrow))
-        //{
-        //}
-        //else if (Input.GetKeyDown(KeyCode.RightArrow)) && (Input.GetKeyDown(KeyCode.DownArrow))
-        //{
-        //}
+        else if (Input.GetKeyUp(KeyCode.LeftArrow))
+        {
+            player.GetComponent<Animator>().Play("Moving");
+            player.transform.Rotate(0, 0, -90);
+        }
+
+        //Right
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            player.GetComponent<Animator>().Play("Moving");
+            player.transform.Rotate(0, 0, -90);
+        }
+
+        else if (Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            player.GetComponent<Animator>().Play("Moving");
+            player.transform.Rotate(0, 0, 90);
+        }
+
+        //Down 
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            player.GetComponent<Animator>().Play("Moving");
+            player.transform.Rotate(0, 0, 180);
+        }
+
+        else if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            player.GetComponent<Animator>().Play("Moving");
+            player.transform.Rotate(0, 0, -180);
+        }
+    //Re-Position
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            player.GetComponent<Animator>().Play("Moving");
+            player.transform.Rotate(0, 0, 90);
+        }
     }
 
     //----------------------------------------------------------------------------
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
-        walk.Play();
     }
 }
 
