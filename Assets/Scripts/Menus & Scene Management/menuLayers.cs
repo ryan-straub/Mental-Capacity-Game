@@ -8,6 +8,8 @@ public class menuLayers : MonoBehaviour
     public GameObject creditsOverlay;
     public GameObject musicCreditsOverlay;
 
+    //Main Menu overlay transitions 
+
     public void mainMenuToCredits()
     {
         mainMenuOverlay.SetActive(false);

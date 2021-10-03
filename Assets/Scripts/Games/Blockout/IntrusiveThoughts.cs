@@ -9,6 +9,7 @@ public class IntrusiveThoughts : MonoBehaviour
     public float enemyMovementx;
     public float enemyMovementy;
 
+    //Fixed speed for intrusive thoughts
     public void Awake()
     {
         enemySpeed = 0.5f;
@@ -16,11 +17,13 @@ public class IntrusiveThoughts : MonoBehaviour
     }
 
     //Update is called once per frame
+    //Moves intrusuive thought along a fixed speed every single frame
     void Update()
     {
         enemy.transform.Translate(enemyMovementx * enemySpeed, enemyMovementy * enemySpeed, 0);
     }
 
+    //When intrusive thought collides with shield or brain, it destroys the object
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Destroy(enemy);

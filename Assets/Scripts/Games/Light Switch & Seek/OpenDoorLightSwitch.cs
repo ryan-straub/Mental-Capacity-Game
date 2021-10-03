@@ -7,12 +7,8 @@ public class OpenDoorLightSwitch : MonoBehaviour
     public GameObject Door;
     public int numberOfLightSwitches = 0;
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    //Keeps track of how many lights have been turned off
+    //When number of light switches turned off equals 31, then it will open downstairs door
     public void addLight()
     {
         numberOfLightSwitches += 1;

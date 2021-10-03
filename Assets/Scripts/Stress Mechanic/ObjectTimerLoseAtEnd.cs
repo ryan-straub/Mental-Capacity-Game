@@ -26,6 +26,7 @@ public class ObjectTimerLoseAtEnd : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //incorperated in the game LS&S and RRR
         currentTime -= 1 * Time.deltaTime;
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
         currentTimeText.text = time.Minutes.ToString() + ":" +time.Seconds.ToString() + ":" + time.Milliseconds.ToString();
@@ -42,6 +43,8 @@ public class ObjectTimerLoseAtEnd : MonoBehaviour
         {
             playerStress.veryLargeStressIncrease();
         }
+
+        //If timer reaches 0, then player loses
         else if (currentTime <= 0)
         {
             currentTime = 0;

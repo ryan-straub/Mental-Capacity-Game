@@ -15,6 +15,8 @@ public class ArrowKeys : MonoBehaviour
     public Sprite upLook;
     public Sprite downLook;
     private IEnumerator coroutine;
+//-------------------------------------------------------------------------------------
+    //enables hitboxes for half a second checks if there is a collision
 
     IEnumerator enableLeftHitbox()
     {
@@ -56,8 +58,10 @@ public class ArrowKeys : MonoBehaviour
     {
         playerStress.moderateStressIncrease();
     }
-
+//-------------------------------------------------------------------------------------
+    //sets arrow sprites to true as an indication that the arrow keys have been activated
     // Update is called once per frame
+    //Left
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
@@ -74,6 +78,7 @@ public class ArrowKeys : MonoBehaviour
         }
 
 //=======================================================================================
+    //Right
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             right.SetActive(true);
@@ -88,6 +93,7 @@ public class ArrowKeys : MonoBehaviour
         }
 
 //=======================================================================================
+        //Up
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             up.SetActive(true);
@@ -101,6 +107,7 @@ public class ArrowKeys : MonoBehaviour
             up.GetComponent<Renderer>().material.color = Color.white;
         }
 //========================================================================================
+        //Down
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             down.SetActive(true);

@@ -12,9 +12,9 @@ public class BirdMovement : MonoBehaviour
     void Update()
     {
         MoveLeft();
-        //MoveRight();
     }
 
+    //Bird moves on a fixed path
     public void MoveLeft()
     {
         bird.transform.Translate(-birdX * birdSpeed, 0, 0);

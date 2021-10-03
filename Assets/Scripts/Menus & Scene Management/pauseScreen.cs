@@ -12,6 +12,7 @@ public class pauseScreen : MonoBehaviour
     // Update is called once per frame
     void Update() 
     { 
+        //Unpause and pause for game
         if (Input.GetKeyDown(KeyCode.Escape) && isPaused == false)
         {
             isPaused = true;
@@ -31,6 +32,7 @@ public class pauseScreen : MonoBehaviour
         }
     }
 
+    //unpauses game
     public void unPause()
     {
         isPaused = false;

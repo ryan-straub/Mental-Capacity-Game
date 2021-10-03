@@ -27,7 +27,8 @@ public class audioInput : MonoBehaviour
     public int sentence4CurrentAmount;
     public int sentence5CurrentAmount;
     public int sentence6CurrentAmount;
-
+    
+    //List of sentences player must repeat into microphone 
     public string sentence1 = "I let the dog inside";
     public string sentence2 = "There is nothing left to say";
     public string sentence3 = "Destroy them";
@@ -35,9 +36,12 @@ public class audioInput : MonoBehaviour
     public string sentence5 = "Are you okay";
     public string sentence6 = "Good morning how are you feeling today";
 
+    //Translates audio inputs to text
     private KeywordRecognizer keywordRecognizer;
     private Dictionary<string, Action> phrases = new Dictionary<string, Action>();
 
+    // When program activates, it sets the total number of times the player must repeat 
+    // the sentence to a random number between 1 and 10
     void Awake()
     {
         sentence1TotalAmount = Random.Range(1, 10);
@@ -49,6 +53,7 @@ public class audioInput : MonoBehaviour
     }
 
     // Start is called before the first frame update
+    //Adds phrases to commands
     void Start()
     {
         phrases.Add(sentence1, level1);
@@ -63,6 +68,7 @@ public class audioInput : MonoBehaviour
         keywordRecognizer.Start();
     }
 
+    //test to check if audio input from player is being picked up
     private void voiceConfirm(PhraseRecognizedEventArgs speech)
     {
         Debug.Log(speech.text);
@@ -70,6 +76,9 @@ public class audioInput : MonoBehaviour
     }
 
     //--------------------------------------------------------------------------------
+    // Once the number of player repeats equals the number of times they were supposed to repeat said phrase
+    // then the camera will move to show the next sentence they must repeat until the game ends
+
 
     private void level1()
     {

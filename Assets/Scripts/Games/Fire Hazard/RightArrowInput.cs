@@ -14,11 +14,13 @@ public class RightArrowInput : MonoBehaviour
     }
 
     // Update is called once per frame
+    //Right arrow key moves at fixed speed
     void Update()
     {
         ArrowRight.transform.Translate(0, speed, 0);
     }
 
+    //When Right Lightning Bolt is matched with arrow, then destroy lightning bolt
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Destroy(ArrowRight);

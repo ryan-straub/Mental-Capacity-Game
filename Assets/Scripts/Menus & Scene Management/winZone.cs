@@ -6,12 +6,7 @@ public class winZone : MonoBehaviour
 {
     public GameObject winScreen;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    //When player collides with box, show win screen
     private void OnTriggerEnter2D(Collider2D collision)
     {
         winScreen.SetActive(true);

@@ -8,12 +8,13 @@ public class Shield : MonoBehaviour
     public GameObject shield;
     public AudioSource shieldBoink;
 
+    //When intrusive thought collides with shield, it plays sfx
     private void OnCollisionEnter2D(Collision2D collision)
     {
         shieldBoink.Play();
-        Destroy(enemy);
     }
 
+    //When player pressed left or right key the shield moves either clockwise or counter-clockwise
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))

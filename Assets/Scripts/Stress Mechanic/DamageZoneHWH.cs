@@ -7,6 +7,7 @@ public class DamageZoneHWH : MonoBehaviour
     public PlayerStress player;
     public bool inZone = false;
 
+    //If player is in collider, then increase total damage of player by 8 points
     private void OnTriggerEnter2D(Collider2D collision)
     {
         inZone = true;

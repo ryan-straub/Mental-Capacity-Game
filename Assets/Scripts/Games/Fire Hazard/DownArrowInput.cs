@@ -14,11 +14,13 @@ public class DownArrowInput : MonoBehaviour
     }
 
     // Update is called once per frame
+    // Down arrow key moves at fixed speed
     void Update()
     {
         ArrowDown.transform.Translate(0, speed, 0);
     }
 
+    //When down Lightning Bolt is matched with arrow, then destroy lightning bolt
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Destroy(ArrowDown);

@@ -6,6 +6,8 @@ using System;
 
 //https://www.youtube.com/watch?v=o0j7PdU88a4
 
+
+//incorperated in games, FH and BO
 public class ObjectTimerWinAtEnd : MonoBehaviour
 {
     public PlayerStress playerStress;
@@ -30,6 +32,7 @@ public class ObjectTimerWinAtEnd : MonoBehaviour
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
         currentTimeText.text = time.Minutes.ToString() + ":" +time.Seconds.ToString() + ":" + time.Milliseconds.ToString();
 
+        //If timer reaches 0, then the player wins
         if (currentTime <= 0)
         {
             currentTime = 0;

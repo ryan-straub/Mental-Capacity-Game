@@ -9,6 +9,7 @@ public class PlayerTopDown : MonoBehaviour
     public GameObject player;
     private Rigidbody2D body;
 
+    //PLAYER ROTATION STILL NEEDS TO BE FIXED
     void Update()
     {
         body.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, Input.GetAxis("Vertical") * speed);

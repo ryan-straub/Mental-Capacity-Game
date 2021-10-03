@@ -18,11 +18,13 @@ public class PlayerStress : MonoBehaviour
     //------------------------------------------------------------------------------
 
     // Update is called once per frame
+    // Slider shows how much damage the player has taken
     void Update()
     {
         slider.value = (float)distressLevel;
     }
 
+    //Game Over Overlay 
     public void gameOver()
     {
         loseScreen.SetActive(true);
@@ -31,6 +33,7 @@ public class PlayerStress : MonoBehaviour
         Destroy(slider);
     }
 
+    //Win Game Overlay
     public void youWin()
     {
         winScreen.SetActive(true);
@@ -38,7 +41,6 @@ public class PlayerStress : MonoBehaviour
     }
 
     //--------------------------------Damage Amounts--------------------------------
-
     public void verySmallDamage()
     {
         distressLevel += 0.1;

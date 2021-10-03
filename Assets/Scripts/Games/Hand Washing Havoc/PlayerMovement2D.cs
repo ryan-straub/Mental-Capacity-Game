@@ -24,6 +24,7 @@ public class PlayerMovement2D : MonoBehaviour
     {
         body.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
 
+        //Checks if the player jumps to prevent infinite jumping in both left and right directions
         if (Input.GetKey(KeyCode.Space) && jumped == false && movingRight == true)
         {
             body.velocity = new Vector2(body.velocity.x, jump);
@@ -55,6 +56,8 @@ public class PlayerMovement2D : MonoBehaviour
          {
             player.GetComponent<Animator>().Play("Walking Right");
             movingRight = true;
+
+            //REFER BACK TO WHEN FIXING ANIMATION FOR PLAYER
 
             //have a boolean have it start that character is starting facing right
             //use boolean to have it change directions

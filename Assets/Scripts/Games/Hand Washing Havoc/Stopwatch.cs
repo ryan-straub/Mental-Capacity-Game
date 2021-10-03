@@ -23,6 +23,7 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     }
 
     // Update is called once per frame
+    // When stopwatch starts
     void Update()
     {
         if (stopWatchActive== true)
@@ -43,6 +44,7 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         sinkNoise.Play();
     }
 
+    //When wash button is released
      public void OnPointerUp(PointerEventData eventData)
     {
         StopStopwatch();
@@ -52,7 +54,9 @@ public class Stopwatch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         stopWatchActive = true;
     }
-     
+    
+    //When player releases the button checks to see if timer stops between alloted time.
+    //If it does, then it move to the obstacle course, else it restarts the level
     public void StopStopwatch()
     {
         stopWatchActive = false;

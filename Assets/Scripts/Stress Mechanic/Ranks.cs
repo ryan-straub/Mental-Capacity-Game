@@ -15,6 +15,7 @@ public class Ranks : MonoBehaviour
 
     public void setRank(string rank)
     {
+        //The more damage a player has, the lower their rank is
         switch (rank)
         {
             case "S":
